@@ -19,9 +19,9 @@
 *2. Uygulama başarıyla başlatıldıktan sonra, http://localhost:8080 adresine erişebilirsiniz.*
 ### Kullanım
 *Uygulama başarıyla çalıştığında, aşağıdaki adımları izleyerek mesaj kuyruğunu kullanabilirsiniz:* <br>
-*1.	POST /kisi/kaydet endpoint'ine bir POST isteği gönderin:*<br>
-*2.	B Mesaj kuyruğuna başarıyla gönderildikten sonra, b tüketici tarafından mesajın aldığını görebilirsiniz.*<br>
-*3. B Mesajı aldıktan sonra , A mesaj kuyruğuna 200 OK Mesajını gönderir ve , a tüketici tarafındanda mesajın alındığını görebilirsiniz.*
+*1.	POST /kisi/kaydet endpoint'ine bir POST isteği gönderin:*<br> ![Postman](https://github.com/sefakaraca0/Spring-boot-RabbitMQ-Example/blob/main/images/postman.png) <br>
+*2.	B Mesaj kuyruğuna başarıyla gönderildikten sonra, b tüketici tarafından mesajın aldığını görebilirsiniz.*<br> ![A App Console](https://github.com/sefakaraca0/Spring-boot-RabbitMQ-Example/blob/main/images/A-app-console.png) <br>
+*3. B Mesajı aldıktan sonra , A mesaj kuyruğuna 200 OK Mesajını gönderir ve , a tüketici tarafından da mesajın alındığını görebilirsiniz.* <br> ![B-App Console](https://github.com/sefakaraca0/Spring-boot-RabbitMQ-Example/blob/main/images/B-app-console.png) <br>
 ### Katkıda Bulunma
 *Bu projeye katkıda bulunmak isterseniz, lütfen şu adımları izleyin:*<br>
 *1.	Bu depoyu kendi hesabınıza "fork"layın.* <br>
