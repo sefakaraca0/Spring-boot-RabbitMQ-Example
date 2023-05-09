@@ -5,7 +5,7 @@
 * Bu talimatlar, projenin yerel bir makinede nasıl çalıştırılacağını ve geliştirileceğini anlatmaktadır. Dağıtım için farklı adımlar gerekebilir.*
 ### Önkoşullar
  *Bu projenin çalıştırılması için aşağıdaki yazılımların yüklü olması gerekmektedir:<br>*
-* *Java 8 veya üzeri*
+* *Java 17 veya üzeri*
 * *RabbitMQ*
  ### Kurulum
  *1. Bu depoyu klonlayın:*
