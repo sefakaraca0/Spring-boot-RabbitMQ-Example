@@ -1,5 +1,6 @@
 # Spring-boot-RabbitMQ-Example
 *Bu proje, Spring Boot ve RabbitMQ'yu kullanarak basit bir mesaj kuyruğu uygulamasıdır. Mesaj kuyruğu, bir mesajı üretici tarafından gönderilen ve bir veya daha fazla tüketici tarafından alınan bir iletişim modelidir.*
+![banner resmi](https://github.com/sefakaraca0/Spring-boot-RabbitMQ-Example/blob/main/images/readme-banner.png)
 ## Başlangıç
 * Bu talimatlar, projenin yerel bir makinede nasıl çalıştırılacağını ve geliştirileceğini anlatmaktadır. Dağıtım için farklı adımlar gerekebilir.*
 ### Önkoşullar
