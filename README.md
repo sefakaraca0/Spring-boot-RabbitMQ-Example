@@ -5,7 +5,8 @@
 * Bu talimatlar, projenin yerel bir makinede nasıl çalıştırılacağını ve geliştirileceğini anlatmaktadır. Dağıtım için farklı adımlar gerekebilir.*
 ### Önkoşullar
  *Bu projenin çalıştırılması için aşağıdaki yazılımların yüklü olması gerekmektedir:<br>*
-* Java 8 veya üzeri RabbitMQ*
+* *Java 8 veya üzeri*
+* *RabbitMQ*
  ### Kurulum
  *1. Bu depoyu klonlayın:*
 `git clone https://github.com/sefakaraca0/Spring-boot-RabbitMQ-Example` <br>
@@ -25,7 +26,7 @@
 *1.	Bu depoyu kendi hesabınıza "fork"layın.* <br>
 *2.	Yeni bir özellik veya düzeltme için bir dal ("branch") oluşturun.* <br>
 *3.	Değişikliklerinizi yapın ve düzenlemeleri yapın.* <br>
-*4.	Yaptığınız değişiklikleri "commit"leyin.* <br>
+*4.	Yaptığınız değişiklikleri "commit"leyip push edin.* <br>
 *5.	Yeni dalınızı ana depoya gönderin ("pull request").* <br>
 *6.	İnceleme sürecinden geçmesini bekleyin ve gerekirse daha fazla değişiklik yapın.* <br>
 *7.	Değişiklikleriniz ana depoya kabul edildiğinde, teşekkürler!*
