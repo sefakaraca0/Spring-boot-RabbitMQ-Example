@@ -20,6 +20,6 @@ public class NotificationListener {
         System.out.println("Message received..");
         System.out.println(json);
 
-      //  notificationProducer.sendToQueue("{\"statu":"200"}");
+      notificationProducer.sendToQueue("{\"statu\":\"200\"}");
     }
 }
