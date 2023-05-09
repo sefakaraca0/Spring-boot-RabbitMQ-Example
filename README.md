@@ -1,21 +1,24 @@
-# Spring-boot-RabbitMQ-Example
-*Bu proje, Spring Boot ve RabbitMQ'yu kullanarak basit bir mesaj kuyruğu uygulamasıdır. Mesaj kuyruğu, bir mesajı üretici tarafından gönderilen ve bir veya daha fazla tüketici tarafından alınan bir iletişim modelidir.*
+# Spring Boot RabbitMQ Docker Example
+*Bu proje, Spring Boot ve RabbitMQ kullanarak basit bir mesaj kuyruğu uygulamasını Docker üzerinde çalıştırmak için tasarlanmıştır. Mesaj kuyruğu, bir mesajı üretici tarafından gönderilen ve bir veya daha fazla tüketici tarafından alınan bir iletişim modelidir.* <br>
 ![banner resmi](https://github.com/sefakaraca0/Spring-boot-RabbitMQ-Example/blob/main/images/readme-banner.png)
 ## Başlangıç
-* Bu talimatlar, projenin yerel bir makinede nasıl çalıştırılacağını ve geliştirileceğini anlatmaktadır. Dağıtım için farklı adımlar gerekebilir.*
+*Bu talimatlar, projenin Docker üzerinde nasıl çalıştırılacağını anlatmaktadır.*
 ### Önkoşullar
  *Bu projenin çalıştırılması için aşağıdaki yazılımların yüklü olması gerekmektedir:<br>*
 * *Java 17 veya üzeri*
 * *RabbitMQ*
+* *Docker*
+* *Docker Compose*
  ### Kurulum
- *1. Bu depoyu klonlayın:*
+ *1. Bu depoyu klonlayın:* <br>
 `git clone https://github.com/sefakaraca0/Spring-boot-RabbitMQ-Example` <br>
-*2.  Proje klasörüne gidin:*
+*2.  Proje klasörüne gidin:*<br>
 `cd Spring-boot-RabbitMQ-Example`<br>
-*3.	Uygulamayı derleyin:`./gradlew build`*
+*3. Docker imajını oluşturun:*<br>
+`docker build -t Spring-boot-RabbitMQ-Example `<br>
 ### Çalıştırma
-*1.  Uygulamayı başlatmak için aşağıdaki komutu çalıştırın:*
-`./gradlew bootRun` <br>
+*1.  Docker Compose kullanarak proje ve RabbitMQ konteynerini başlatmak için aşağıdaki komutu çalıştırın:* <br>
+ *`docker-compose up -d`* <br>
 *2. Uygulama başarıyla başlatıldıktan sonra, http://localhost:8080 adresine erişebilirsiniz.*
 ### Kullanım
 *Uygulama başarıyla çalıştığında, aşağıdaki adımları izleyerek mesaj kuyruğunu kullanabilirsiniz:* <br>
